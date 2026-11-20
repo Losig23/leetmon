@@ -173,4 +173,5 @@ No official franchise names, sprites, or logos. In-game terms are **LeetDex** an
 - **Harness features**: an in-place output option (for problems like Rotate Image and Reorder List), cyclic list input (Linked List Cycle), graph-node input (Clone Graph), and custom validators for "any valid answer" problems (Course Schedule II, Alien Dictionary).
 - **Practice loop**: spaced-repetition review (caught problems "escape" after N days), a per-encounter timer and personal bests, custom-input runs, per-problem notes, per-type accuracy stats, and a diff view against the reference.
 - **Game layer**: simple battle animations, sound, trainer card export, and type-effectiveness flavor.
-- **Out of scope for now**: tile-based overworld, multiplayer, accounts, and a backend.
+- **Planned next: a walkable overworld.** Towns, routes with trainers, gyms with same-type trainers, and enterable buildings. See "Game design v2" in TASKS.md.
+- **Out of scope for now**: multiplayer, accounts, and a backend.
