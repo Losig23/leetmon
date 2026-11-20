@@ -137,11 +137,11 @@ Build a **vertical slice first**: Hello World Village → Route 1 (2–3 trainer
 
 ## Prompt for a new chat
 
-Connect the project folder or point the new chat at the GitHub repo, then paste:
+Connect the project folder (`/Users/ani/Documents/dev/leetmon`) in the new chat, then paste:
 
 ```
 I'm continuing work on LeetMon, a web game for practicing LeetCode-style interview problems.
-The code is on GitHub at Losig23/leetmon (my local clone: /Users/ani/Documents/dev/leetmon).
+Work directly in my local clone at /Users/ani/Documents/dev/leetmon (also on GitHub as Losig23/leetmon).
 Run `npm install`, then read README.md and TASKS.md before changing anything. TASKS.md has the new
 design ("Game design v2: the overworld") and the stage breakdown (Phase 4).
 
@@ -182,9 +182,9 @@ Rules:
   chromium`). Update the e2e tests for the overworld, using dev-only debug hooks instead of walking
   every tile.
 - Update TASKS.md (check off what you finished) and README.md (how to play, controls, world-data schema).
-  Commit and push to main on GitHub when everything passes.
+- Don't commit or push. Leave the changes in my working tree; I'll review and commit them myself.
 
 At the very end, give me a ready-to-paste prompt for a new chat to continue with the next stage. Make
-it self-contained: where the code is, what's done, what the next stage is, and these same rules. Also
-ask that chat to end with a prompt for the stage after it.
+it self-contained: where the code is, what's done, what the next stage is, and these same rules
+(including "don't commit or push"). Also ask that chat to end with a prompt for the stage after it.
 ```
